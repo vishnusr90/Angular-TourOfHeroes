@@ -14,15 +14,10 @@ export class HeroesComponent implements OnInit {
 
   constructor() { }
 
-
-  ngOnInit() {
-
-  }
+  ngOnInit() { }
 
   clickHero(hero: Hero): void{
+    console.log("clicked hero");
     this.selectedHero = hero;
-    
   }
-
-
 }
