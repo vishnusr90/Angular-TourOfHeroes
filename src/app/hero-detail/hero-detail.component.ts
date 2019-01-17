@@ -13,7 +13,6 @@ export class HeroDetailComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log("Detail component");
   }
 
 }
